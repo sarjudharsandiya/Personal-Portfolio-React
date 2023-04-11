@@ -1,0 +1,53 @@
+.contact-form {
+  height: 80vh;
+  padding: 0 5rem 0 5rem;
+  display: flex;
+  margin-top: 4rem;
+}
+@media screen and (max-width: 992px) {
+  .contact-form {
+    flex-direction: column;
+    height: 25rem;
+    padding: 0;
+    flex-direction: column;
+    margin-bottom: 6rem;
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .contact-form {
+    height: 24rem;
+  }
+}
+.contact-form .c-right {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+}
+.contact-form .c-right > form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.contact-form .c-right > form .user {
+  width: 20rem;
+  height: 2rem;
+  padding: 0.3em;
+  border: 2px solid var(--orange);
+  border-radius: 8px;
+  font-size: 16px;
+}
+@media screen and (max-width: 992px) {
+  .contact-form .c-right > form .user {
+    width: 16rem;
+  }
+}
+.contact-form .c-right > form textarea {
+  height: 4rem !important;
+}
+.contact-form .c-right > form .c-blur1 {
+  top: 1rem;
+  left: 8rem;
+}/*# sourceMappingURL=Contect.css.map */
